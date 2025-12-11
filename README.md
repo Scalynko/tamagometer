@@ -1,4 +1,4 @@
-Currently in bitlist.txt because I don't know Vue. Figuring the parts I can out first but I just have this list here
+Currently in [bitlist.txt](https://github.com/Scalynko/tamagometer/blob/bit-list-interpreting/bitlist.txt) because I don't know Vue. Figuring the parts I can out first but I just have this list here
 Check out the web app here: https://zacharesmer.github.io/tamagometer/
 
 # Hardware
