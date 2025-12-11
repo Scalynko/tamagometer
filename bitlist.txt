@@ -1,0 +1,3 @@
+Bit 88 (byte 11 bit 8), message 1/2: Gender
+
+Bit 90-91 (byte 12 bit 2-3), message 1/2: Friendship Value (00 for 1, 11 for 4) If opposite gender, hearts are shown instead of smileys. I'll add more info about mating once my tamagotchi can breed. Baby gender is probably in 3/4 but it'll be hard to figure out if they're boys.
