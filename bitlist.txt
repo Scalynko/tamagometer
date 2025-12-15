@@ -2,3 +2,15 @@ Bit 88 (byte 11 bit 8), message 1/2: Gender (Boy=0, Girl=1)
 
 Bit 90-91 (byte 12 bit 2-3), message 1/2: Friendship Value (00 for 1, 11 for 4) If opposite gender, hearts are shown instead of smileys.
 I'll add more info about mating once my tamagotchi can breed. Baby gender is probably in 3/4 but it'll be hard to figure out if they're boys.
+
+Bit 99 (byte 13 bit 3-4), message 1/2: Costume (00=Nyatchi, 01=Hohotchi, 10 (also 11 but unused)=No costume)
+
+Bit 120 (byte 15 bit 8), message 1/2: Honey activated (0=No, 1=Yes)
+For some reason when you activate honey on the fake tamagotchi, the tamagotchi assumes a request to play a game. I think you also may have to turn bit 99 and/or 110 into 1 to make it work as well. idk
+
+Also through this, I accidentally found out you can kiss the same gender (and also your own clone). So that's cool.
+Here's the messages if you want to look into it (consume honey first)
+0000111000000000100001111000101100010100000010110001100000001101000010100000111000000010011000000010000000000100000000010000000000000000000000000000000000000011
+0000111000000001100001111000101100010100000010110001100000001101000010100000111000000000011000000010000000000100000000010000000000000000000000000000000000000010
+0000111000001100100001111000101100010100000010110001100000001101000010100000111000000010000000000010000000000100000000010000000000000000000000000000000010101111
+0000111000001101100001111000101100010100000010110001100000001101000010100000111000000000011000000010000000000100000000010000000000000000000000000000000000001110
