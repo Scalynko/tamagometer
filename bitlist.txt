@@ -6,7 +6,7 @@ I'll add more info about mating once my tamagotchi can breed. Baby gender is pro
 Bit 99 (byte 13 bit 3-4), message 1/2: Costume (00=Nyatchi, 01=Hohotchi, 10 (also 11 but unused)=No costume)
 
 Bit 120 (byte 15 bit 8), message 1/2: Honey activated (0=No, 1=Yes)
-For some reason when you activate honey on the fake tamagotchi, the tamagotchi assumes a request to play a game. I think you also may have to turn bit 99 and/or 110 into 1 to make it work as well. idk
+For some reason when you activate honey on the fake tamagotchi, the tamagotchi assumes a request to play a game.
 
 Also through this, I accidentally found out you can kiss the same gender (and also your own clone). So that's cool.
 Here's the messages if you want to look into it (consume honey first)
