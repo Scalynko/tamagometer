@@ -10,7 +10,7 @@ In order to do the transmission with the honey with the tamagometer, it needs to
 Also through this, I accidentally found out you can kiss the same gender (and also your own clone). So that's cool. The 00001100/00001101 conversation type does the kiss animation.
 Look inside of the recording examples folder for the .tgir which you can import into the "View Saved" screen.
 
-I wasn't able to find out the baby gender bit (might be in message 3 or the male), BUT the conversation type to start mating is 00001010/00001011! I have started with a baby boy (which is gonna suck if the gender bit is in there).
+I wasn't able to find out the baby gender bit (might be in message 3 or the male), BUT the conversation type to start mating is 00001010/00001011! I have started with a baby boy (which is gonna suck if the gender bit is in the male or message 3 since I didn't try that).
 Hopefully after I breed, I can figure out the luck value (Which I believe is bit 103-104 byte 13 bit 7-8) if that's in the data.
 
 After the game type bits in message 1/2, there's some sort of value you can input. This is definitely for the games, but i also saw some values for visiting (00010101, 00011010, 00011110) that I don't know what it's about.
