@@ -9,7 +9,7 @@ Bit 95-96 (byte 12 bit 7-8), message 3/4: Baby Gender from marrying (may need mo
 1: 00 2: 01 = Boy
 1: 11 2: 01 = Boy
 1: 10 2: 10 = Girl
-I accidentally overwritten a baby my tamagotchi had with my friend's so I'm a little scared to work on this for now. When I did 01 for message 3, I did get a boy. Some of these may involve Oyajitchi, I think.
+I accidentally overwritten a baby my tamagotchi had with my friend's so I'm a little scared to work on this for now. When I did 01 for message 3, I did get a boy. Forgot what message 4 was. Some of these may involve Oyajitchi, I think.
 
 Bit 99 (byte 13 bit 3-4), message 1/2: Costume (00=Nyatchi, 01=Hohotchi, 10 (also 11 but unused)=No costume)
 
@@ -23,9 +23,8 @@ Found Conversation Types:
 00001100/00001101: Kissing (Honey activated)
 00001010/00001011: Marrying (This can work on ANYONE and can probably have the child with it. I'm a little horrified to test this on my child Tamagotchi)
 
-I wasn't able to find out the baby gender bit through resetting (might be in message 3 or the male), BUT the conversation type to start mating is 00001010/00001011!
-I have started with a baby boy (which is gonna suck if the gender bit is in the male or message 3 since I didn't try that).
-
-I thought the luck bit was 103-104 byte 13 bit 7-8 but after breeding my tamagotchi and naming the baby, i did not see the number go up. but shouldn't it be transmitted so the luck goes up depending on the parents? If so it's probably something message 3/4 related that I didn't capture because I only flipped bits on existing conversations within tamagometer. And I don't have a second 2024 V3 (I got one for Christmas so I can test this more!) so it's a lot harder to find these things out lol.
+I thought the luck bit was 103-104 byte 13 bit 7-8 but after breeding my tamagotchi and naming the baby, i did not see the number go up. but shouldn't it be transmitted so the luck goes up depending on the parents?
+If so it's probably something message 3/4 related that I didn't capture because I only flipped bits on existing conversations within tamagometer.
+And I don't have a second 2024 V3 (I got one for Christmas so I can test this more!) so it's a lot harder to find these things out lol.
 
 After the game type bits in message 1/2, there's some sort of value you can input. This is definitely for the games, but i also saw some values for visiting (00010101, 00011010, 00011110) that I don't know what it's about.
