@@ -747,14 +747,18 @@ class TamaConversationType extends TamaBits {
                 [8, "Visit"],
                 [4, "Gift"],
                 [6, "Gift And Visit"],
-                [2, "Game"]
+                [2, "Game"],
+                [12, "Kiss"],
+                [10, "Marry"]
             ])
         } else if (message === 4) {
             this.conversationTypes = new Map<number, string>([
                 [9, "Visit"],
                 [5, "Gift"],
                 [7, "Gift And Visit"],
-                [3, "Game"]
+                [3, "Game"],
+                [13, "Kiss"],
+                [11, "Marry"]
             ])
         }
     }
